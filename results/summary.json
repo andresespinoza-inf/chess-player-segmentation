@@ -1,0 +1,47 @@
+{
+  "audit": {
+    "games": 20058,
+    "players": 15635,
+    "first_game": "2013-08-17",
+    "last_game": "2017-09-04",
+    "share_casual_games": 0.195,
+    "share_draws": 0.047,
+    "players_with_min_games": 688,
+    "min_games": 10,
+    "share_opening_names_with_single_opening_ply": 0.966
+  },
+  "k": 3,
+  "silhouette": 0.2327,
+  "bootstrap_stability": {
+    "n_boot": 20,
+    "ari_mean": 0.828,
+    "ari_std": 0.211,
+    "ari_min": 0.401
+  },
+  "opening_association": {
+    "chi2": 80.9,
+    "dof": 16,
+    "p_value": 1.1437775205850642e-10,
+    "min_expected_count": 5.45
+  },
+  "threshold_sensitivity": [
+    {
+      "min_games": 5,
+      "players": 1123,
+      "silhouette": 0.2252,
+      "ari_vs_reference_on_shared_players": 0.938
+    },
+    {
+      "min_games": 10,
+      "players": 688,
+      "silhouette": 0.2327,
+      "ari_vs_reference_on_shared_players": 1.0
+    },
+    {
+      "min_games": 20,
+      "players": 408,
+      "silhouette": 0.2284,
+      "ari_vs_reference_on_shared_players": 0.797
+    }
+  ]
+}

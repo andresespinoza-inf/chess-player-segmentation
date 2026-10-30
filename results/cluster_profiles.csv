@@ -1,0 +1,4 @@
+cluster,players,share,avg_rating,avg_turns,resign_rate,timeout_rate,most_common_speed,description
+0,255,0.371,1325.733,50.26,0.515,0.052,rapid,"lower rated, shorter games (mostly rapid)"
+1,139,0.202,1604.694,69.929,0.378,0.194,rapid,"longer games, games rarely end by resignation, many games lost on time (mostly rapid)"
+2,294,0.427,1812.376,64.672,0.662,0.06,rapid,"higher rated, games often end by resignation (mostly rapid)"
