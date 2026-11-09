@@ -2,6 +2,8 @@
 
 Unsupervised segmentation of 688 Lichess players (those with at least 10 games in a public dataset) using mixed-type K-Prototypes, followed by validation and a small demo app. The main lesson: the segments that emerge are mostly **rating tiers**, the cluster structure is **weak**, and several tempting conclusions (win-rate "styles", opening "recipes") do not survive a careful check.
 
+**[Live demo](https://chess-player-segmentation.streamlit.app/)** — try it with any public Lichess username.
+
 ## Key results
 
 * **3 segments**, chosen with a rule fixed in advance: among k = 3 to 6 whose bootstrap stability (ARI) is at least 0.8, take the best silhouette.
@@ -76,7 +78,9 @@ Kaggle "Chess Game Dataset (Lichess)", 20,058 games between 2013-08-17 and 2017-
 
 ## Demo
 
-The demo needs a personal Lichess API token: the game-export endpoint requires OAuth2 and returns `404` for anonymous requests (even when the user exists). Create a token at <https://lichess.org/account/oauth/token/create> (no scopes are needed to read public games), then:
+**Live demo:** <https://chess-player-segmentation.streamlit.app/> — no token or installation needed.
+
+To run the app locally, you need your own Lichess API token: the game-export endpoint requires OAuth2 and returns `404` for anonymous requests (even when the user exists). Create a token at <https://lichess.org/account/oauth/token/create> (no scopes are needed to read public games), then:
 
 ```bash
 export LICHESS_TOKEN="lip_..."
