@@ -1,0 +1,4 @@
+cluster,players,games,score,score_ci_low,score_ci_high,score_over_expected,median_games_per_player
+0,255,6806,0.405,0.393,0.417,0.0,24.0
+1,139,3431,0.508,0.491,0.524,0.004,18.0
+2,294,7915,0.559,0.548,0.57,-0.0,24.0

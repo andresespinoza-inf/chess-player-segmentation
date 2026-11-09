@@ -1,0 +1,19 @@
+cluster,favourite_opening,players,share_in_cluster,share_overall,lift
+0,King's Pawn Game,40,0.157,0.078,2.0
+2,Ruy Lopez,16,0.054,0.039,1.39
+2,Sicilian Defense,104,0.354,0.254,1.39
+2,French Defense,33,0.112,0.09,1.25
+2,Queen's Pawn Game,22,0.075,0.065,1.14
+0,English Opening,14,0.055,0.048,1.14
+0,Italian Game,24,0.094,0.083,1.14
+2,Caro-Kann Defense,16,0.054,0.048,1.13
+1,Sicilian Defense,37,0.266,0.254,1.05
+1,King's Pawn Game,11,0.079,0.078,1.01
+1,Italian Game,11,0.079,0.083,0.96
+2,Italian Game,22,0.075,0.083,0.9
+0,Queen's Pawn Game,15,0.059,0.065,0.9
+0,French Defense,19,0.075,0.09,0.83
+0,Caro-Kann Defense,10,0.039,0.048,0.82
+1,French Defense,10,0.072,0.09,0.8
+2,English Opening,11,0.037,0.048,0.78
+0,Sicilian Defense,34,0.133,0.254,0.52

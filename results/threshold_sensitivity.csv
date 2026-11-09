@@ -1,0 +1,4 @@
+min_games,players,silhouette,ari_vs_reference_on_shared_players
+5,1123,0.2252,0.938
+10,688,0.2327,1.0
+20,408,0.2284,0.797
